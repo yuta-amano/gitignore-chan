@@ -155,6 +155,8 @@
 		E8D11281189A203E00F61B88 /* Yeoman.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F6189A203E00F61B88 /* Yeoman.gitignore */; };
 		E8D11282189A203E00F61B88 /* Yii.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F7189A203E00F61B88 /* Yii.gitignore */; };
 		E8D11283189A203E00F61B88 /* ZendFramework.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F8189A203E00F61B88 /* ZendFramework.gitignore */; };
+		E8D11287189A52C100F61B88 /* IgnoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D11286189A52C000F61B88 /* IgnoreFile.m */; };
+		E8D1128A189A5A4300F61B88 /* FileList.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D11289189A5A4300F61B88 /* FileList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -324,6 +326,10 @@
 		E8D111F6189A203E00F61B88 /* Yeoman.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yeoman.gitignore; sourceTree = "<group>"; };
 		E8D111F7189A203E00F61B88 /* Yii.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yii.gitignore; sourceTree = "<group>"; };
 		E8D111F8189A203E00F61B88 /* ZendFramework.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZendFramework.gitignore; sourceTree = "<group>"; };
+		E8D11285189A52C000F61B88 /* IgnoreFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgnoreFile.h; sourceTree = "<group>"; };
+		E8D11286189A52C000F61B88 /* IgnoreFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgnoreFile.m; sourceTree = "<group>"; };
+		E8D11288189A5A4300F61B88 /* FileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileList.h; sourceTree = "<group>"; };
+		E8D11289189A5A4300F61B88 /* FileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +395,7 @@
 		E8D1113E189A1E9300F61B88 /* gitignore-chan */ = {
 			isa = PBXGroup;
 			children = (
+				E8D11284189A528C00F61B88 /* source */,
 				E8D1116C189A200900F61B88 /* gitignore */,
 				E8D1114A189A1E9300F61B88 /* AppDelegate.h */,
 				E8D1114B189A1E9300F61B88 /* AppDelegate.m */,
@@ -579,6 +586,17 @@
 				E8D111B6189A203E00F61B88 /* XilinxISE.gitignore */,
 			);
 			path = Global;
+			sourceTree = "<group>";
+		};
+		E8D11284189A528C00F61B88 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E8D11285189A52C000F61B88 /* IgnoreFile.h */,
+				E8D11286189A52C000F61B88 /* IgnoreFile.m */,
+				E8D11288189A5A4300F61B88 /* FileList.h */,
+				E8D11289189A5A4300F61B88 /* FileList.m */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -816,6 +834,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D11287189A52C100F61B88 /* IgnoreFile.m in Sources */,
+				E8D1128A189A5A4300F61B88 /* FileList.m in Sources */,
 				E8D1114C189A1E9300F61B88 /* AppDelegate.m in Sources */,
 				E8D11145189A1E9300F61B88 /* main.m in Sources */,
 			);
