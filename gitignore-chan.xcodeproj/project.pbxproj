@@ -18,6 +18,143 @@
 		E8D11159189A1E9300F61B88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D11138189A1E9300F61B88 /* Cocoa.framework */; };
 		E8D11161189A1E9300F61B88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8D1115F189A1E9300F61B88 /* InfoPlist.strings */; };
 		E8D11163189A1E9300F61B88 /* gitignore_chanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D11162189A1E9300F61B88 /* gitignore_chanTests.m */; };
+		E8D111F9189A203E00F61B88 /* Actionscript.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1116D189A203E00F61B88 /* Actionscript.gitignore */; };
+		E8D111FA189A203E00F61B88 /* Ada.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1116E189A203E00F61B88 /* Ada.gitignore */; };
+		E8D111FB189A203E00F61B88 /* Agda.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1116F189A203E00F61B88 /* Agda.gitignore */; };
+		E8D111FC189A203E00F61B88 /* Android.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11170189A203E00F61B88 /* Android.gitignore */; };
+		E8D111FD189A203E00F61B88 /* AppceleratorTitanium.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11171189A203E00F61B88 /* AppceleratorTitanium.gitignore */; };
+		E8D111FE189A203E00F61B88 /* ArchLinuxPackages.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11172189A203E00F61B88 /* ArchLinuxPackages.gitignore */; };
+		E8D111FF189A203E00F61B88 /* Autotools.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11173189A203E00F61B88 /* Autotools.gitignore */; };
+		E8D11200189A203E00F61B88 /* Bancha.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11174189A203E00F61B88 /* Bancha.gitignore */; };
+		E8D11201189A203E00F61B88 /* C.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11175189A203E00F61B88 /* C.gitignore */; };
+		E8D11202189A203E00F61B88 /* C++.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11176189A203E00F61B88 /* C++.gitignore */; };
+		E8D11203189A203E00F61B88 /* CakePHP.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11177189A203E00F61B88 /* CakePHP.gitignore */; };
+		E8D11204189A203E00F61B88 /* CFWheels.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11178189A203E00F61B88 /* CFWheels.gitignore */; };
+		E8D11205189A203E00F61B88 /* ChefCookbook.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11179189A203E00F61B88 /* ChefCookbook.gitignore */; };
+		E8D11206189A203E00F61B88 /* Leiningen.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1117A189A203E00F61B88 /* Leiningen.gitignore */; };
+		E8D11207189A203E00F61B88 /* CMake.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1117B189A203E00F61B88 /* CMake.gitignore */; };
+		E8D11208189A203E00F61B88 /* CodeIgniter.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1117C189A203E00F61B88 /* CodeIgniter.gitignore */; };
+		E8D11209189A203E00F61B88 /* CommonLisp.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1117D189A203E00F61B88 /* CommonLisp.gitignore */; };
+		E8D1120A189A203E00F61B88 /* Compass.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1117E189A203E00F61B88 /* Compass.gitignore */; };
+		E8D1120B189A203E00F61B88 /* Composer.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1117F189A203E00F61B88 /* Composer.gitignore */; };
+		E8D1120C189A203E00F61B88 /* Concrete5.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11180189A203E00F61B88 /* Concrete5.gitignore */; };
+		E8D1120D189A203E00F61B88 /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = E8D11181189A203E00F61B88 /* CONTRIBUTING.md */; };
+		E8D1120E189A203E00F61B88 /* Coq.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11182189A203E00F61B88 /* Coq.gitignore */; };
+		E8D1120F189A203E00F61B88 /* Dart.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11183189A203E00F61B88 /* Dart.gitignore */; };
+		E8D11210189A203E00F61B88 /* Delphi.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11184189A203E00F61B88 /* Delphi.gitignore */; };
+		E8D11211189A203E00F61B88 /* Drupal.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11185189A203E00F61B88 /* Drupal.gitignore */; };
+		E8D11212189A203E00F61B88 /* Eagle.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11186189A203E00F61B88 /* Eagle.gitignore */; };
+		E8D11213189A203E00F61B88 /* Elisp.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11187189A203E00F61B88 /* Elisp.gitignore */; };
+		E8D11214189A203E00F61B88 /* EPiServer.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11188189A203E00F61B88 /* EPiServer.gitignore */; };
+		E8D11215189A203E00F61B88 /* Erlang.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11189189A203E00F61B88 /* Erlang.gitignore */; };
+		E8D11216189A203E00F61B88 /* ExpressionEngine.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1118A189A203E00F61B88 /* ExpressionEngine.gitignore */; };
+		E8D11217189A203E00F61B88 /* Fancy.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1118B189A203E00F61B88 /* Fancy.gitignore */; };
+		E8D11218189A203E00F61B88 /* Finale.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1118C189A203E00F61B88 /* Finale.gitignore */; };
+		E8D11219189A203E00F61B88 /* ForceDotCom.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1118D189A203E00F61B88 /* ForceDotCom.gitignore */; };
+		E8D1121A189A203E00F61B88 /* FuelPHP.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1118E189A203E00F61B88 /* FuelPHP.gitignore */; };
+		E8D1121B189A203E00F61B88 /* gcov.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1118F189A203E00F61B88 /* gcov.gitignore */; };
+		E8D1121C189A203E00F61B88 /* Archives.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11191189A203E00F61B88 /* Archives.gitignore */; };
+		E8D1121D189A203E00F61B88 /* BricxCC.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11192189A203E00F61B88 /* BricxCC.gitignore */; };
+		E8D1121E189A203E00F61B88 /* Cloud9.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11193189A203E00F61B88 /* Cloud9.gitignore */; };
+		E8D1121F189A203E00F61B88 /* CVS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11194189A203E00F61B88 /* CVS.gitignore */; };
+		E8D11220189A203E00F61B88 /* DartEditor.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11195189A203E00F61B88 /* DartEditor.gitignore */; };
+		E8D11221189A203E00F61B88 /* Dreamweaver.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11196189A203E00F61B88 /* Dreamweaver.gitignore */; };
+		E8D11222189A203E00F61B88 /* Eclipse.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11197189A203E00F61B88 /* Eclipse.gitignore */; };
+		E8D11223189A203E00F61B88 /* Emacs.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11198189A203E00F61B88 /* Emacs.gitignore */; };
+		E8D11224189A203E00F61B88 /* Ensime.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D11199189A203E00F61B88 /* Ensime.gitignore */; };
+		E8D11225189A203E00F61B88 /* Espresso.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1119A189A203E00F61B88 /* Espresso.gitignore */; };
+		E8D11226189A203E00F61B88 /* FlexBuilder.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1119B189A203E00F61B88 /* FlexBuilder.gitignore */; };
+		E8D11227189A203E00F61B88 /* JetBrains.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1119C189A203E00F61B88 /* JetBrains.gitignore */; };
+		E8D11228189A203E00F61B88 /* Kate.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1119D189A203E00F61B88 /* Kate.gitignore */; };
+		E8D11229189A203E00F61B88 /* KDevelop4.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1119E189A203E00F61B88 /* KDevelop4.gitignore */; };
+		E8D1122A189A203E00F61B88 /* Lazarus.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D1119F189A203E00F61B88 /* Lazarus.gitignore */; };
+		E8D1122B189A203E00F61B88 /* Linux.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A0189A203E00F61B88 /* Linux.gitignore */; };
+		E8D1122C189A203E00F61B88 /* Matlab.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A1189A203E00F61B88 /* Matlab.gitignore */; };
+		E8D1122D189A203E00F61B88 /* Mercurial.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A2189A203E00F61B88 /* Mercurial.gitignore */; };
+		E8D1122E189A203E00F61B88 /* ModelSim.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A3189A203E00F61B88 /* ModelSim.gitignore */; };
+		E8D1122F189A203E00F61B88 /* MonoDevelop.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A4189A203E00F61B88 /* MonoDevelop.gitignore */; };
+		E8D11230189A203E00F61B88 /* NetBeans.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A5189A203E00F61B88 /* NetBeans.gitignore */; };
+		E8D11231189A203E00F61B88 /* NotepadPP.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A6189A203E00F61B88 /* NotepadPP.gitignore */; };
+		E8D11232189A203E00F61B88 /* OSX.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A7189A203E00F61B88 /* OSX.gitignore */; };
+		E8D11233189A203E00F61B88 /* Quartus2.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A8189A203E00F61B88 /* Quartus2.gitignore */; };
+		E8D11234189A203E00F61B88 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E8D111A9189A203E00F61B88 /* README.md */; };
+		E8D11235189A203E00F61B88 /* Redcar.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111AA189A203E00F61B88 /* Redcar.gitignore */; };
+		E8D11236189A203E00F61B88 /* SASS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111AB189A203E00F61B88 /* SASS.gitignore */; };
+		E8D11237189A203E00F61B88 /* SBT.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111AC189A203E00F61B88 /* SBT.gitignore */; };
+		E8D11238189A203E00F61B88 /* SublimeText.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111AD189A203E00F61B88 /* SublimeText.gitignore */; };
+		E8D11239189A203E00F61B88 /* SVN.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111AE189A203E00F61B88 /* SVN.gitignore */; };
+		E8D1123A189A203E00F61B88 /* Tags.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111AF189A203E00F61B88 /* Tags.gitignore */; };
+		E8D1123B189A203E00F61B88 /* TextMate.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B0189A203E00F61B88 /* TextMate.gitignore */; };
+		E8D1123C189A203E00F61B88 /* Vagrant.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B1189A203E00F61B88 /* Vagrant.gitignore */; };
+		E8D1123D189A203E00F61B88 /* vim.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B2189A203E00F61B88 /* vim.gitignore */; };
+		E8D1123E189A203E00F61B88 /* VirtualEnv.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B3189A203E00F61B88 /* VirtualEnv.gitignore */; };
+		E8D1123F189A203E00F61B88 /* webMethods.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B4189A203E00F61B88 /* webMethods.gitignore */; };
+		E8D11240189A203E00F61B88 /* Windows.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B5189A203E00F61B88 /* Windows.gitignore */; };
+		E8D11241189A203E00F61B88 /* XilinxISE.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B6189A203E00F61B88 /* XilinxISE.gitignore */; };
+		E8D11242189A203E00F61B88 /* Go.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B7189A203E00F61B88 /* Go.gitignore */; };
+		E8D11243189A203E00F61B88 /* Gradle.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B8189A203E00F61B88 /* Gradle.gitignore */; };
+		E8D11244189A203E00F61B88 /* Grails.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111B9189A203E00F61B88 /* Grails.gitignore */; };
+		E8D11245189A203E00F61B88 /* GWT.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111BA189A203E00F61B88 /* GWT.gitignore */; };
+		E8D11246189A203E00F61B88 /* Haskell.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111BB189A203E00F61B88 /* Haskell.gitignore */; };
+		E8D11247189A203E00F61B88 /* Java.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111BC189A203E00F61B88 /* Java.gitignore */; };
+		E8D11248189A203E00F61B88 /* Jboss.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111BD189A203E00F61B88 /* Jboss.gitignore */; };
+		E8D11249189A203E00F61B88 /* Jekyll.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111BE189A203E00F61B88 /* Jekyll.gitignore */; };
+		E8D1124A189A203E00F61B88 /* Joomla.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111BF189A203E00F61B88 /* Joomla.gitignore */; };
+		E8D1124B189A203E00F61B88 /* Jython.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C0189A203E00F61B88 /* Jython.gitignore */; };
+		E8D1124C189A203E00F61B88 /* Kohana.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C1189A203E00F61B88 /* Kohana.gitignore */; };
+		E8D1124E189A203E00F61B88 /* LemonStand.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C3189A203E00F61B88 /* LemonStand.gitignore */; };
+		E8D1124F189A203E00F61B88 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C4189A203E00F61B88 /* LICENSE */; };
+		E8D11250189A203E00F61B88 /* Lilypond.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C5189A203E00F61B88 /* Lilypond.gitignore */; };
+		E8D11251189A203E00F61B88 /* Lithium.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C6189A203E00F61B88 /* Lithium.gitignore */; };
+		E8D11252189A203E00F61B88 /* Magento.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C7189A203E00F61B88 /* Magento.gitignore */; };
+		E8D11253189A203E00F61B88 /* Maven.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C8189A203E00F61B88 /* Maven.gitignore */; };
+		E8D11254189A203E00F61B88 /* Meteor.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111C9189A203E00F61B88 /* Meteor.gitignore */; };
+		E8D11255189A203E00F61B88 /* nanoc.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111CA189A203E00F61B88 /* nanoc.gitignore */; };
+		E8D11256189A203E00F61B88 /* Node.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111CB189A203E00F61B88 /* Node.gitignore */; };
+		E8D11257189A203E00F61B88 /* Objective-C.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111CC189A203E00F61B88 /* Objective-C.gitignore */; };
+		E8D11258189A203E00F61B88 /* OCaml.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111CD189A203E00F61B88 /* OCaml.gitignore */; };
+		E8D11259189A203E00F61B88 /* Opa.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111CE189A203E00F61B88 /* Opa.gitignore */; };
+		E8D1125A189A203E00F61B88 /* opencart.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111CF189A203E00F61B88 /* opencart.gitignore */; };
+		E8D1125B189A203E00F61B88 /* OracleForms.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D0189A203E00F61B88 /* OracleForms.gitignore */; };
+		E8D1125C189A203E00F61B88 /* Perl.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D1189A203E00F61B88 /* Perl.gitignore */; };
+		E8D1125D189A203E00F61B88 /* PlayFramework.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D2189A203E00F61B88 /* PlayFramework.gitignore */; };
+		E8D1125E189A203E00F61B88 /* Plone.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D3189A203E00F61B88 /* Plone.gitignore */; };
+		E8D1125F189A203E00F61B88 /* Prestashop.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D4189A203E00F61B88 /* Prestashop.gitignore */; };
+		E8D11260189A203E00F61B88 /* Processing.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D5189A203E00F61B88 /* Processing.gitignore */; };
+		E8D11261189A203E00F61B88 /* Python.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D6189A203E00F61B88 /* Python.gitignore */; };
+		E8D11262189A203E00F61B88 /* Qooxdoo.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D7189A203E00F61B88 /* Qooxdoo.gitignore */; };
+		E8D11263189A203E00F61B88 /* Qt.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D8189A203E00F61B88 /* Qt.gitignore */; };
+		E8D11264189A203E00F61B88 /* R.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111D9189A203E00F61B88 /* R.gitignore */; };
+		E8D11265189A203E00F61B88 /* Rails.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111DA189A203E00F61B88 /* Rails.gitignore */; };
+		E8D11267189A203E00F61B88 /* RhodesRhomobile.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111DC189A203E00F61B88 /* RhodesRhomobile.gitignore */; };
+		E8D11268189A203E00F61B88 /* ROS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111DD189A203E00F61B88 /* ROS.gitignore */; };
+		E8D11269189A203E00F61B88 /* Ruby.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111DE189A203E00F61B88 /* Ruby.gitignore */; };
+		E8D1126A189A203E00F61B88 /* RubyMotion.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111DF189A203E00F61B88 /* RubyMotion.gitignore */; };
+		E8D1126B189A203E00F61B88 /* Scala.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E0189A203E00F61B88 /* Scala.gitignore */; };
+		E8D1126C189A203E00F61B88 /* SCons.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E1189A203E00F61B88 /* SCons.gitignore */; };
+		E8D1126D189A203E00F61B88 /* Scrivener.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E2189A203E00F61B88 /* Scrivener.gitignore */; };
+		E8D1126E189A203E00F61B88 /* Sdcc.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E3189A203E00F61B88 /* Sdcc.gitignore */; };
+		E8D1126F189A203E00F61B88 /* SeamGen.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E4189A203E00F61B88 /* SeamGen.gitignore */; };
+		E8D11270189A203E00F61B88 /* SketchUp.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E5189A203E00F61B88 /* SketchUp.gitignore */; };
+		E8D11271189A203E00F61B88 /* stella.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E6189A203E00F61B88 /* stella.gitignore */; };
+		E8D11272189A203E00F61B88 /* SugarCRM.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E7189A203E00F61B88 /* SugarCRM.gitignore */; };
+		E8D11273189A203E00F61B88 /* Symfony.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E8189A203E00F61B88 /* Symfony.gitignore */; };
+		E8D11274189A203E00F61B88 /* Symfony2.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111E9189A203E00F61B88 /* Symfony2.gitignore */; };
+		E8D11275189A203E00F61B88 /* SymphonyCMS.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111EA189A203E00F61B88 /* SymphonyCMS.gitignore */; };
+		E8D11276189A203E00F61B88 /* Target3001.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111EB189A203E00F61B88 /* Target3001.gitignore */; };
+		E8D11277189A203E00F61B88 /* Tasm.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111EC189A203E00F61B88 /* Tasm.gitignore */; };
+		E8D11278189A203E00F61B88 /* TeX.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111ED189A203E00F61B88 /* TeX.gitignore */; };
+		E8D11279189A203E00F61B88 /* Textpattern.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111EE189A203E00F61B88 /* Textpattern.gitignore */; };
+		E8D1127A189A203E00F61B88 /* TurboGears2.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111EF189A203E00F61B88 /* TurboGears2.gitignore */; };
+		E8D1127B189A203E00F61B88 /* Typo3.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F0189A203E00F61B88 /* Typo3.gitignore */; };
+		E8D1127C189A203E00F61B88 /* Unity.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F1189A203E00F61B88 /* Unity.gitignore */; };
+		E8D1127D189A203E00F61B88 /* VisualStudio.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F2189A203E00F61B88 /* VisualStudio.gitignore */; };
+		E8D1127E189A203E00F61B88 /* VVVV.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F3189A203E00F61B88 /* VVVV.gitignore */; };
+		E8D1127F189A203E00F61B88 /* Waf.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F4189A203E00F61B88 /* Waf.gitignore */; };
+		E8D11280189A203E00F61B88 /* WordPress.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F5189A203E00F61B88 /* WordPress.gitignore */; };
+		E8D11281189A203E00F61B88 /* Yeoman.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F6189A203E00F61B88 /* Yeoman.gitignore */; };
+		E8D11282189A203E00F61B88 /* Yii.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F7189A203E00F61B88 /* Yii.gitignore */; };
+		E8D11283189A203E00F61B88 /* ZendFramework.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F8189A203E00F61B88 /* ZendFramework.gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +187,143 @@
 		E8D1115E189A1E9300F61B88 /* gitignore-chanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitignore-chanTests-Info.plist"; sourceTree = "<group>"; };
 		E8D11160189A1E9300F61B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8D11162189A1E9300F61B88 /* gitignore_chanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitignore_chanTests.m; sourceTree = "<group>"; };
+		E8D1116D189A203E00F61B88 /* Actionscript.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Actionscript.gitignore; sourceTree = "<group>"; };
+		E8D1116E189A203E00F61B88 /* Ada.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ada.gitignore; sourceTree = "<group>"; };
+		E8D1116F189A203E00F61B88 /* Agda.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Agda.gitignore; sourceTree = "<group>"; };
+		E8D11170189A203E00F61B88 /* Android.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.gitignore; sourceTree = "<group>"; };
+		E8D11171189A203E00F61B88 /* AppceleratorTitanium.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppceleratorTitanium.gitignore; sourceTree = "<group>"; };
+		E8D11172189A203E00F61B88 /* ArchLinuxPackages.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ArchLinuxPackages.gitignore; sourceTree = "<group>"; };
+		E8D11173189A203E00F61B88 /* Autotools.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Autotools.gitignore; sourceTree = "<group>"; };
+		E8D11174189A203E00F61B88 /* Bancha.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bancha.gitignore; sourceTree = "<group>"; };
+		E8D11175189A203E00F61B88 /* C.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = C.gitignore; sourceTree = "<group>"; };
+		E8D11176189A203E00F61B88 /* C++.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "C++.gitignore"; sourceTree = "<group>"; };
+		E8D11177189A203E00F61B88 /* CakePHP.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CakePHP.gitignore; sourceTree = "<group>"; };
+		E8D11178189A203E00F61B88 /* CFWheels.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CFWheels.gitignore; sourceTree = "<group>"; };
+		E8D11179189A203E00F61B88 /* ChefCookbook.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChefCookbook.gitignore; sourceTree = "<group>"; };
+		E8D1117A189A203E00F61B88 /* Leiningen.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Leiningen.gitignore; sourceTree = "<group>"; };
+		E8D1117B189A203E00F61B88 /* CMake.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMake.gitignore; sourceTree = "<group>"; };
+		E8D1117C189A203E00F61B88 /* CodeIgniter.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CodeIgniter.gitignore; sourceTree = "<group>"; };
+		E8D1117D189A203E00F61B88 /* CommonLisp.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonLisp.gitignore; sourceTree = "<group>"; };
+		E8D1117E189A203E00F61B88 /* Compass.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Compass.gitignore; sourceTree = "<group>"; };
+		E8D1117F189A203E00F61B88 /* Composer.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Composer.gitignore; sourceTree = "<group>"; };
+		E8D11180189A203E00F61B88 /* Concrete5.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Concrete5.gitignore; sourceTree = "<group>"; };
+		E8D11181189A203E00F61B88 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		E8D11182189A203E00F61B88 /* Coq.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Coq.gitignore; sourceTree = "<group>"; };
+		E8D11183189A203E00F61B88 /* Dart.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dart.gitignore; sourceTree = "<group>"; };
+		E8D11184189A203E00F61B88 /* Delphi.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Delphi.gitignore; sourceTree = "<group>"; };
+		E8D11185189A203E00F61B88 /* Drupal.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Drupal.gitignore; sourceTree = "<group>"; };
+		E8D11186189A203E00F61B88 /* Eagle.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eagle.gitignore; sourceTree = "<group>"; };
+		E8D11187189A203E00F61B88 /* Elisp.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Elisp.gitignore; sourceTree = "<group>"; };
+		E8D11188189A203E00F61B88 /* EPiServer.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EPiServer.gitignore; sourceTree = "<group>"; };
+		E8D11189189A203E00F61B88 /* Erlang.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Erlang.gitignore; sourceTree = "<group>"; };
+		E8D1118A189A203E00F61B88 /* ExpressionEngine.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExpressionEngine.gitignore; sourceTree = "<group>"; };
+		E8D1118B189A203E00F61B88 /* Fancy.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fancy.gitignore; sourceTree = "<group>"; };
+		E8D1118C189A203E00F61B88 /* Finale.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Finale.gitignore; sourceTree = "<group>"; };
+		E8D1118D189A203E00F61B88 /* ForceDotCom.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ForceDotCom.gitignore; sourceTree = "<group>"; };
+		E8D1118E189A203E00F61B88 /* FuelPHP.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FuelPHP.gitignore; sourceTree = "<group>"; };
+		E8D1118F189A203E00F61B88 /* gcov.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gcov.gitignore; sourceTree = "<group>"; };
+		E8D11191189A203E00F61B88 /* Archives.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Archives.gitignore; sourceTree = "<group>"; };
+		E8D11192189A203E00F61B88 /* BricxCC.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BricxCC.gitignore; sourceTree = "<group>"; };
+		E8D11193189A203E00F61B88 /* Cloud9.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cloud9.gitignore; sourceTree = "<group>"; };
+		E8D11194189A203E00F61B88 /* CVS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CVS.gitignore; sourceTree = "<group>"; };
+		E8D11195189A203E00F61B88 /* DartEditor.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DartEditor.gitignore; sourceTree = "<group>"; };
+		E8D11196189A203E00F61B88 /* Dreamweaver.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dreamweaver.gitignore; sourceTree = "<group>"; };
+		E8D11197189A203E00F61B88 /* Eclipse.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eclipse.gitignore; sourceTree = "<group>"; };
+		E8D11198189A203E00F61B88 /* Emacs.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Emacs.gitignore; sourceTree = "<group>"; };
+		E8D11199189A203E00F61B88 /* Ensime.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ensime.gitignore; sourceTree = "<group>"; };
+		E8D1119A189A203E00F61B88 /* Espresso.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Espresso.gitignore; sourceTree = "<group>"; };
+		E8D1119B189A203E00F61B88 /* FlexBuilder.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlexBuilder.gitignore; sourceTree = "<group>"; };
+		E8D1119C189A203E00F61B88 /* JetBrains.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JetBrains.gitignore; sourceTree = "<group>"; };
+		E8D1119D189A203E00F61B88 /* Kate.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kate.gitignore; sourceTree = "<group>"; };
+		E8D1119E189A203E00F61B88 /* KDevelop4.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KDevelop4.gitignore; sourceTree = "<group>"; };
+		E8D1119F189A203E00F61B88 /* Lazarus.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lazarus.gitignore; sourceTree = "<group>"; };
+		E8D111A0189A203E00F61B88 /* Linux.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Linux.gitignore; sourceTree = "<group>"; };
+		E8D111A1189A203E00F61B88 /* Matlab.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Matlab.gitignore; sourceTree = "<group>"; };
+		E8D111A2189A203E00F61B88 /* Mercurial.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mercurial.gitignore; sourceTree = "<group>"; };
+		E8D111A3189A203E00F61B88 /* ModelSim.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModelSim.gitignore; sourceTree = "<group>"; };
+		E8D111A4189A203E00F61B88 /* MonoDevelop.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MonoDevelop.gitignore; sourceTree = "<group>"; };
+		E8D111A5189A203E00F61B88 /* NetBeans.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NetBeans.gitignore; sourceTree = "<group>"; };
+		E8D111A6189A203E00F61B88 /* NotepadPP.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NotepadPP.gitignore; sourceTree = "<group>"; };
+		E8D111A7189A203E00F61B88 /* OSX.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OSX.gitignore; sourceTree = "<group>"; };
+		E8D111A8189A203E00F61B88 /* Quartus2.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Quartus2.gitignore; sourceTree = "<group>"; };
+		E8D111A9189A203E00F61B88 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E8D111AA189A203E00F61B88 /* Redcar.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Redcar.gitignore; sourceTree = "<group>"; };
+		E8D111AB189A203E00F61B88 /* SASS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SASS.gitignore; sourceTree = "<group>"; };
+		E8D111AC189A203E00F61B88 /* SBT.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBT.gitignore; sourceTree = "<group>"; };
+		E8D111AD189A203E00F61B88 /* SublimeText.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SublimeText.gitignore; sourceTree = "<group>"; };
+		E8D111AE189A203E00F61B88 /* SVN.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SVN.gitignore; sourceTree = "<group>"; };
+		E8D111AF189A203E00F61B88 /* Tags.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tags.gitignore; sourceTree = "<group>"; };
+		E8D111B0189A203E00F61B88 /* TextMate.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TextMate.gitignore; sourceTree = "<group>"; };
+		E8D111B1189A203E00F61B88 /* Vagrant.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vagrant.gitignore; sourceTree = "<group>"; };
+		E8D111B2189A203E00F61B88 /* vim.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vim.gitignore; sourceTree = "<group>"; };
+		E8D111B3189A203E00F61B88 /* VirtualEnv.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VirtualEnv.gitignore; sourceTree = "<group>"; };
+		E8D111B4189A203E00F61B88 /* webMethods.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = webMethods.gitignore; sourceTree = "<group>"; };
+		E8D111B5189A203E00F61B88 /* Windows.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Windows.gitignore; sourceTree = "<group>"; };
+		E8D111B6189A203E00F61B88 /* XilinxISE.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XilinxISE.gitignore; sourceTree = "<group>"; };
+		E8D111B7189A203E00F61B88 /* Go.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Go.gitignore; sourceTree = "<group>"; };
+		E8D111B8189A203E00F61B88 /* Gradle.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gradle.gitignore; sourceTree = "<group>"; };
+		E8D111B9189A203E00F61B88 /* Grails.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Grails.gitignore; sourceTree = "<group>"; };
+		E8D111BA189A203E00F61B88 /* GWT.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GWT.gitignore; sourceTree = "<group>"; };
+		E8D111BB189A203E00F61B88 /* Haskell.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Haskell.gitignore; sourceTree = "<group>"; };
+		E8D111BC189A203E00F61B88 /* Java.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Java.gitignore; sourceTree = "<group>"; };
+		E8D111BD189A203E00F61B88 /* Jboss.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jboss.gitignore; sourceTree = "<group>"; };
+		E8D111BE189A203E00F61B88 /* Jekyll.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jekyll.gitignore; sourceTree = "<group>"; };
+		E8D111BF189A203E00F61B88 /* Joomla.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Joomla.gitignore; sourceTree = "<group>"; };
+		E8D111C0189A203E00F61B88 /* Jython.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jython.gitignore; sourceTree = "<group>"; };
+		E8D111C1189A203E00F61B88 /* Kohana.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kohana.gitignore; sourceTree = "<group>"; };
+		E8D111C3189A203E00F61B88 /* LemonStand.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LemonStand.gitignore; sourceTree = "<group>"; };
+		E8D111C4189A203E00F61B88 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E8D111C5189A203E00F61B88 /* Lilypond.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lilypond.gitignore; sourceTree = "<group>"; };
+		E8D111C6189A203E00F61B88 /* Lithium.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lithium.gitignore; sourceTree = "<group>"; };
+		E8D111C7189A203E00F61B88 /* Magento.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Magento.gitignore; sourceTree = "<group>"; };
+		E8D111C8189A203E00F61B88 /* Maven.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Maven.gitignore; sourceTree = "<group>"; };
+		E8D111C9189A203E00F61B88 /* Meteor.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Meteor.gitignore; sourceTree = "<group>"; };
+		E8D111CA189A203E00F61B88 /* nanoc.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nanoc.gitignore; sourceTree = "<group>"; };
+		E8D111CB189A203E00F61B88 /* Node.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Node.gitignore; sourceTree = "<group>"; };
+		E8D111CC189A203E00F61B88 /* Objective-C.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Objective-C.gitignore"; sourceTree = "<group>"; };
+		E8D111CD189A203E00F61B88 /* OCaml.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OCaml.gitignore; sourceTree = "<group>"; };
+		E8D111CE189A203E00F61B88 /* Opa.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Opa.gitignore; sourceTree = "<group>"; };
+		E8D111CF189A203E00F61B88 /* opencart.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opencart.gitignore; sourceTree = "<group>"; };
+		E8D111D0189A203E00F61B88 /* OracleForms.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OracleForms.gitignore; sourceTree = "<group>"; };
+		E8D111D1189A203E00F61B88 /* Perl.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Perl.gitignore; sourceTree = "<group>"; };
+		E8D111D2189A203E00F61B88 /* PlayFramework.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PlayFramework.gitignore; sourceTree = "<group>"; };
+		E8D111D3189A203E00F61B88 /* Plone.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Plone.gitignore; sourceTree = "<group>"; };
+		E8D111D4189A203E00F61B88 /* Prestashop.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prestashop.gitignore; sourceTree = "<group>"; };
+		E8D111D5189A203E00F61B88 /* Processing.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Processing.gitignore; sourceTree = "<group>"; };
+		E8D111D6189A203E00F61B88 /* Python.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Python.gitignore; sourceTree = "<group>"; };
+		E8D111D7189A203E00F61B88 /* Qooxdoo.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Qooxdoo.gitignore; sourceTree = "<group>"; };
+		E8D111D8189A203E00F61B88 /* Qt.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Qt.gitignore; sourceTree = "<group>"; };
+		E8D111D9189A203E00F61B88 /* R.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = R.gitignore; sourceTree = "<group>"; };
+		E8D111DA189A203E00F61B88 /* Rails.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rails.gitignore; sourceTree = "<group>"; };
+		E8D111DC189A203E00F61B88 /* RhodesRhomobile.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RhodesRhomobile.gitignore; sourceTree = "<group>"; };
+		E8D111DD189A203E00F61B88 /* ROS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ROS.gitignore; sourceTree = "<group>"; };
+		E8D111DE189A203E00F61B88 /* Ruby.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ruby.gitignore; sourceTree = "<group>"; };
+		E8D111DF189A203E00F61B88 /* RubyMotion.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RubyMotion.gitignore; sourceTree = "<group>"; };
+		E8D111E0189A203E00F61B88 /* Scala.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scala.gitignore; sourceTree = "<group>"; };
+		E8D111E1189A203E00F61B88 /* SCons.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SCons.gitignore; sourceTree = "<group>"; };
+		E8D111E2189A203E00F61B88 /* Scrivener.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scrivener.gitignore; sourceTree = "<group>"; };
+		E8D111E3189A203E00F61B88 /* Sdcc.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sdcc.gitignore; sourceTree = "<group>"; };
+		E8D111E4189A203E00F61B88 /* SeamGen.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SeamGen.gitignore; sourceTree = "<group>"; };
+		E8D111E5189A203E00F61B88 /* SketchUp.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SketchUp.gitignore; sourceTree = "<group>"; };
+		E8D111E6189A203E00F61B88 /* stella.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stella.gitignore; sourceTree = "<group>"; };
+		E8D111E7189A203E00F61B88 /* SugarCRM.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SugarCRM.gitignore; sourceTree = "<group>"; };
+		E8D111E8189A203E00F61B88 /* Symfony.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Symfony.gitignore; sourceTree = "<group>"; };
+		E8D111E9189A203E00F61B88 /* Symfony2.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Symfony2.gitignore; sourceTree = "<group>"; };
+		E8D111EA189A203E00F61B88 /* SymphonyCMS.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SymphonyCMS.gitignore; sourceTree = "<group>"; };
+		E8D111EB189A203E00F61B88 /* Target3001.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Target3001.gitignore; sourceTree = "<group>"; };
+		E8D111EC189A203E00F61B88 /* Tasm.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tasm.gitignore; sourceTree = "<group>"; };
+		E8D111ED189A203E00F61B88 /* TeX.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TeX.gitignore; sourceTree = "<group>"; };
+		E8D111EE189A203E00F61B88 /* Textpattern.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Textpattern.gitignore; sourceTree = "<group>"; };
+		E8D111EF189A203E00F61B88 /* TurboGears2.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TurboGears2.gitignore; sourceTree = "<group>"; };
+		E8D111F0189A203E00F61B88 /* Typo3.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Typo3.gitignore; sourceTree = "<group>"; };
+		E8D111F1189A203E00F61B88 /* Unity.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Unity.gitignore; sourceTree = "<group>"; };
+		E8D111F2189A203E00F61B88 /* VisualStudio.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VisualStudio.gitignore; sourceTree = "<group>"; };
+		E8D111F3189A203E00F61B88 /* VVVV.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VVVV.gitignore; sourceTree = "<group>"; };
+		E8D111F4189A203E00F61B88 /* Waf.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Waf.gitignore; sourceTree = "<group>"; };
+		E8D111F5189A203E00F61B88 /* WordPress.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordPress.gitignore; sourceTree = "<group>"; };
+		E8D111F6189A203E00F61B88 /* Yeoman.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yeoman.gitignore; sourceTree = "<group>"; };
+		E8D111F7189A203E00F61B88 /* Yii.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yii.gitignore; sourceTree = "<group>"; };
+		E8D111F8189A203E00F61B88 /* ZendFramework.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZendFramework.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +389,7 @@
 		E8D1113E189A1E9300F61B88 /* gitignore-chan */ = {
 			isa = PBXGroup;
 			children = (
+				E8D1116C189A200900F61B88 /* gitignore */,
 				E8D1114A189A1E9300F61B88 /* AppDelegate.h */,
 				E8D1114B189A1E9300F61B88 /* AppDelegate.m */,
 				E8D1114D189A1E9300F61B88 /* MainMenu.xib */,
@@ -152,6 +427,158 @@
 				E8D1115F189A1E9300F61B88 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D1116C189A200900F61B88 /* gitignore */ = {
+			isa = PBXGroup;
+			children = (
+				E8D1116D189A203E00F61B88 /* Actionscript.gitignore */,
+				E8D1116E189A203E00F61B88 /* Ada.gitignore */,
+				E8D1116F189A203E00F61B88 /* Agda.gitignore */,
+				E8D11170189A203E00F61B88 /* Android.gitignore */,
+				E8D11171189A203E00F61B88 /* AppceleratorTitanium.gitignore */,
+				E8D11172189A203E00F61B88 /* ArchLinuxPackages.gitignore */,
+				E8D11173189A203E00F61B88 /* Autotools.gitignore */,
+				E8D11174189A203E00F61B88 /* Bancha.gitignore */,
+				E8D11175189A203E00F61B88 /* C.gitignore */,
+				E8D11176189A203E00F61B88 /* C++.gitignore */,
+				E8D11177189A203E00F61B88 /* CakePHP.gitignore */,
+				E8D11178189A203E00F61B88 /* CFWheels.gitignore */,
+				E8D11179189A203E00F61B88 /* ChefCookbook.gitignore */,
+				E8D1117A189A203E00F61B88 /* Leiningen.gitignore */,
+				E8D1117B189A203E00F61B88 /* CMake.gitignore */,
+				E8D1117C189A203E00F61B88 /* CodeIgniter.gitignore */,
+				E8D1117D189A203E00F61B88 /* CommonLisp.gitignore */,
+				E8D1117E189A203E00F61B88 /* Compass.gitignore */,
+				E8D1117F189A203E00F61B88 /* Composer.gitignore */,
+				E8D11180189A203E00F61B88 /* Concrete5.gitignore */,
+				E8D11181189A203E00F61B88 /* CONTRIBUTING.md */,
+				E8D11182189A203E00F61B88 /* Coq.gitignore */,
+				E8D11183189A203E00F61B88 /* Dart.gitignore */,
+				E8D11184189A203E00F61B88 /* Delphi.gitignore */,
+				E8D11185189A203E00F61B88 /* Drupal.gitignore */,
+				E8D11186189A203E00F61B88 /* Eagle.gitignore */,
+				E8D11187189A203E00F61B88 /* Elisp.gitignore */,
+				E8D11188189A203E00F61B88 /* EPiServer.gitignore */,
+				E8D11189189A203E00F61B88 /* Erlang.gitignore */,
+				E8D1118A189A203E00F61B88 /* ExpressionEngine.gitignore */,
+				E8D1118B189A203E00F61B88 /* Fancy.gitignore */,
+				E8D1118C189A203E00F61B88 /* Finale.gitignore */,
+				E8D1118D189A203E00F61B88 /* ForceDotCom.gitignore */,
+				E8D1118E189A203E00F61B88 /* FuelPHP.gitignore */,
+				E8D1118F189A203E00F61B88 /* gcov.gitignore */,
+				E8D11190189A203E00F61B88 /* Global */,
+				E8D111B7189A203E00F61B88 /* Go.gitignore */,
+				E8D111B8189A203E00F61B88 /* Gradle.gitignore */,
+				E8D111B9189A203E00F61B88 /* Grails.gitignore */,
+				E8D111BA189A203E00F61B88 /* GWT.gitignore */,
+				E8D111BB189A203E00F61B88 /* Haskell.gitignore */,
+				E8D111BC189A203E00F61B88 /* Java.gitignore */,
+				E8D111BD189A203E00F61B88 /* Jboss.gitignore */,
+				E8D111BE189A203E00F61B88 /* Jekyll.gitignore */,
+				E8D111BF189A203E00F61B88 /* Joomla.gitignore */,
+				E8D111C0189A203E00F61B88 /* Jython.gitignore */,
+				E8D111C1189A203E00F61B88 /* Kohana.gitignore */,
+				E8D111C3189A203E00F61B88 /* LemonStand.gitignore */,
+				E8D111C4189A203E00F61B88 /* LICENSE */,
+				E8D111C5189A203E00F61B88 /* Lilypond.gitignore */,
+				E8D111C6189A203E00F61B88 /* Lithium.gitignore */,
+				E8D111C7189A203E00F61B88 /* Magento.gitignore */,
+				E8D111C8189A203E00F61B88 /* Maven.gitignore */,
+				E8D111C9189A203E00F61B88 /* Meteor.gitignore */,
+				E8D111CA189A203E00F61B88 /* nanoc.gitignore */,
+				E8D111CB189A203E00F61B88 /* Node.gitignore */,
+				E8D111CC189A203E00F61B88 /* Objective-C.gitignore */,
+				E8D111CD189A203E00F61B88 /* OCaml.gitignore */,
+				E8D111CE189A203E00F61B88 /* Opa.gitignore */,
+				E8D111CF189A203E00F61B88 /* opencart.gitignore */,
+				E8D111D0189A203E00F61B88 /* OracleForms.gitignore */,
+				E8D111D1189A203E00F61B88 /* Perl.gitignore */,
+				E8D111D2189A203E00F61B88 /* PlayFramework.gitignore */,
+				E8D111D3189A203E00F61B88 /* Plone.gitignore */,
+				E8D111D4189A203E00F61B88 /* Prestashop.gitignore */,
+				E8D111D5189A203E00F61B88 /* Processing.gitignore */,
+				E8D111D6189A203E00F61B88 /* Python.gitignore */,
+				E8D111D7189A203E00F61B88 /* Qooxdoo.gitignore */,
+				E8D111D8189A203E00F61B88 /* Qt.gitignore */,
+				E8D111D9189A203E00F61B88 /* R.gitignore */,
+				E8D111DA189A203E00F61B88 /* Rails.gitignore */,
+				E8D111DC189A203E00F61B88 /* RhodesRhomobile.gitignore */,
+				E8D111DD189A203E00F61B88 /* ROS.gitignore */,
+				E8D111DE189A203E00F61B88 /* Ruby.gitignore */,
+				E8D111DF189A203E00F61B88 /* RubyMotion.gitignore */,
+				E8D111E0189A203E00F61B88 /* Scala.gitignore */,
+				E8D111E1189A203E00F61B88 /* SCons.gitignore */,
+				E8D111E2189A203E00F61B88 /* Scrivener.gitignore */,
+				E8D111E3189A203E00F61B88 /* Sdcc.gitignore */,
+				E8D111E4189A203E00F61B88 /* SeamGen.gitignore */,
+				E8D111E5189A203E00F61B88 /* SketchUp.gitignore */,
+				E8D111E6189A203E00F61B88 /* stella.gitignore */,
+				E8D111E7189A203E00F61B88 /* SugarCRM.gitignore */,
+				E8D111E8189A203E00F61B88 /* Symfony.gitignore */,
+				E8D111E9189A203E00F61B88 /* Symfony2.gitignore */,
+				E8D111EA189A203E00F61B88 /* SymphonyCMS.gitignore */,
+				E8D111EB189A203E00F61B88 /* Target3001.gitignore */,
+				E8D111EC189A203E00F61B88 /* Tasm.gitignore */,
+				E8D111ED189A203E00F61B88 /* TeX.gitignore */,
+				E8D111EE189A203E00F61B88 /* Textpattern.gitignore */,
+				E8D111EF189A203E00F61B88 /* TurboGears2.gitignore */,
+				E8D111F0189A203E00F61B88 /* Typo3.gitignore */,
+				E8D111F1189A203E00F61B88 /* Unity.gitignore */,
+				E8D111F2189A203E00F61B88 /* VisualStudio.gitignore */,
+				E8D111F3189A203E00F61B88 /* VVVV.gitignore */,
+				E8D111F4189A203E00F61B88 /* Waf.gitignore */,
+				E8D111F5189A203E00F61B88 /* WordPress.gitignore */,
+				E8D111F6189A203E00F61B88 /* Yeoman.gitignore */,
+				E8D111F7189A203E00F61B88 /* Yii.gitignore */,
+				E8D111F8189A203E00F61B88 /* ZendFramework.gitignore */,
+			);
+			path = gitignore;
+			sourceTree = "<group>";
+		};
+		E8D11190189A203E00F61B88 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				E8D11191189A203E00F61B88 /* Archives.gitignore */,
+				E8D11192189A203E00F61B88 /* BricxCC.gitignore */,
+				E8D11193189A203E00F61B88 /* Cloud9.gitignore */,
+				E8D11194189A203E00F61B88 /* CVS.gitignore */,
+				E8D11195189A203E00F61B88 /* DartEditor.gitignore */,
+				E8D11196189A203E00F61B88 /* Dreamweaver.gitignore */,
+				E8D11197189A203E00F61B88 /* Eclipse.gitignore */,
+				E8D11198189A203E00F61B88 /* Emacs.gitignore */,
+				E8D11199189A203E00F61B88 /* Ensime.gitignore */,
+				E8D1119A189A203E00F61B88 /* Espresso.gitignore */,
+				E8D1119B189A203E00F61B88 /* FlexBuilder.gitignore */,
+				E8D1119C189A203E00F61B88 /* JetBrains.gitignore */,
+				E8D1119D189A203E00F61B88 /* Kate.gitignore */,
+				E8D1119E189A203E00F61B88 /* KDevelop4.gitignore */,
+				E8D1119F189A203E00F61B88 /* Lazarus.gitignore */,
+				E8D111A0189A203E00F61B88 /* Linux.gitignore */,
+				E8D111A1189A203E00F61B88 /* Matlab.gitignore */,
+				E8D111A2189A203E00F61B88 /* Mercurial.gitignore */,
+				E8D111A3189A203E00F61B88 /* ModelSim.gitignore */,
+				E8D111A4189A203E00F61B88 /* MonoDevelop.gitignore */,
+				E8D111A5189A203E00F61B88 /* NetBeans.gitignore */,
+				E8D111A6189A203E00F61B88 /* NotepadPP.gitignore */,
+				E8D111A7189A203E00F61B88 /* OSX.gitignore */,
+				E8D111A8189A203E00F61B88 /* Quartus2.gitignore */,
+				E8D111A9189A203E00F61B88 /* README.md */,
+				E8D111AA189A203E00F61B88 /* Redcar.gitignore */,
+				E8D111AB189A203E00F61B88 /* SASS.gitignore */,
+				E8D111AC189A203E00F61B88 /* SBT.gitignore */,
+				E8D111AD189A203E00F61B88 /* SublimeText.gitignore */,
+				E8D111AE189A203E00F61B88 /* SVN.gitignore */,
+				E8D111AF189A203E00F61B88 /* Tags.gitignore */,
+				E8D111B0189A203E00F61B88 /* TextMate.gitignore */,
+				E8D111B1189A203E00F61B88 /* Vagrant.gitignore */,
+				E8D111B2189A203E00F61B88 /* vim.gitignore */,
+				E8D111B3189A203E00F61B88 /* VirtualEnv.gitignore */,
+				E8D111B4189A203E00F61B88 /* webMethods.gitignore */,
+				E8D111B5189A203E00F61B88 /* Windows.gitignore */,
+				E8D111B6189A203E00F61B88 /* XilinxISE.gitignore */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +657,147 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D11271189A203E00F61B88 /* stella.gitignore in Resources */,
+				E8D111FC189A203E00F61B88 /* Android.gitignore in Resources */,
+				E8D1120C189A203E00F61B88 /* Concrete5.gitignore in Resources */,
+				E8D1121B189A203E00F61B88 /* gcov.gitignore in Resources */,
+				E8D11211189A203E00F61B88 /* Drupal.gitignore in Resources */,
+				E8D111FF189A203E00F61B88 /* Autotools.gitignore in Resources */,
+				E8D11239189A203E00F61B88 /* SVN.gitignore in Resources */,
+				E8D11221189A203E00F61B88 /* Dreamweaver.gitignore in Resources */,
+				E8D11279189A203E00F61B88 /* Textpattern.gitignore in Resources */,
+				E8D11278189A203E00F61B88 /* TeX.gitignore in Resources */,
+				E8D11272189A203E00F61B88 /* SugarCRM.gitignore in Resources */,
+				E8D11259189A203E00F61B88 /* Opa.gitignore in Resources */,
+				E8D1123F189A203E00F61B88 /* webMethods.gitignore in Resources */,
+				E8D11262189A203E00F61B88 /* Qooxdoo.gitignore in Resources */,
+				E8D11267189A203E00F61B88 /* RhodesRhomobile.gitignore in Resources */,
+				E8D11244189A203E00F61B88 /* Grails.gitignore in Resources */,
+				E8D11246189A203E00F61B88 /* Haskell.gitignore in Resources */,
+				E8D111FD189A203E00F61B88 /* AppceleratorTitanium.gitignore in Resources */,
+				E8D11256189A203E00F61B88 /* Node.gitignore in Resources */,
+				E8D11200189A203E00F61B88 /* Bancha.gitignore in Resources */,
+				E8D1123A189A203E00F61B88 /* Tags.gitignore in Resources */,
+				E8D11230189A203E00F61B88 /* NetBeans.gitignore in Resources */,
+				E8D111FE189A203E00F61B88 /* ArchLinuxPackages.gitignore in Resources */,
+				E8D1127E189A203E00F61B88 /* VVVV.gitignore in Resources */,
+				E8D11226189A203E00F61B88 /* FlexBuilder.gitignore in Resources */,
+				E8D11213189A203E00F61B88 /* Elisp.gitignore in Resources */,
+				E8D11203189A203E00F61B88 /* CakePHP.gitignore in Resources */,
+				E8D11229189A203E00F61B88 /* KDevelop4.gitignore in Resources */,
+				E8D1123E189A203E00F61B88 /* VirtualEnv.gitignore in Resources */,
+				E8D1127F189A203E00F61B88 /* Waf.gitignore in Resources */,
+				E8D1122A189A203E00F61B88 /* Lazarus.gitignore in Resources */,
+				E8D111F9189A203E00F61B88 /* Actionscript.gitignore in Resources */,
+				E8D1120E189A203E00F61B88 /* Coq.gitignore in Resources */,
 				E8D11143189A1E9300F61B88 /* InfoPlist.strings in Resources */,
+				E8D11222189A203E00F61B88 /* Eclipse.gitignore in Resources */,
+				E8D11227189A203E00F61B88 /* JetBrains.gitignore in Resources */,
+				E8D11268189A203E00F61B88 /* ROS.gitignore in Resources */,
+				E8D1121C189A203E00F61B88 /* Archives.gitignore in Resources */,
+				E8D1126E189A203E00F61B88 /* Sdcc.gitignore in Resources */,
+				E8D1122D189A203E00F61B88 /* Mercurial.gitignore in Resources */,
+				E8D1122F189A203E00F61B88 /* MonoDevelop.gitignore in Resources */,
+				E8D11282189A203E00F61B88 /* Yii.gitignore in Resources */,
+				E8D11257189A203E00F61B88 /* Objective-C.gitignore in Resources */,
+				E8D11283189A203E00F61B88 /* ZendFramework.gitignore in Resources */,
+				E8D11232189A203E00F61B88 /* OSX.gitignore in Resources */,
+				E8D1127D189A203E00F61B88 /* VisualStudio.gitignore in Resources */,
+				E8D1120F189A203E00F61B88 /* Dart.gitignore in Resources */,
+				E8D1127B189A203E00F61B88 /* Typo3.gitignore in Resources */,
+				E8D11207189A203E00F61B88 /* CMake.gitignore in Resources */,
+				E8D11220189A203E00F61B88 /* DartEditor.gitignore in Resources */,
+				E8D1126B189A203E00F61B88 /* Scala.gitignore in Resources */,
+				E8D11228189A203E00F61B88 /* Kate.gitignore in Resources */,
+				E8D11253189A203E00F61B88 /* Maven.gitignore in Resources */,
 				E8D11151189A1E9300F61B88 /* Images.xcassets in Resources */,
+				E8D11274189A203E00F61B88 /* Symfony2.gitignore in Resources */,
+				E8D11280189A203E00F61B88 /* WordPress.gitignore in Resources */,
+				E8D1125D189A203E00F61B88 /* PlayFramework.gitignore in Resources */,
+				E8D11235189A203E00F61B88 /* Redcar.gitignore in Resources */,
+				E8D1124B189A203E00F61B88 /* Jython.gitignore in Resources */,
+				E8D11204189A203E00F61B88 /* CFWheels.gitignore in Resources */,
+				E8D11251189A203E00F61B88 /* Lithium.gitignore in Resources */,
+				E8D111FA189A203E00F61B88 /* Ada.gitignore in Resources */,
+				E8D11218189A203E00F61B88 /* Finale.gitignore in Resources */,
+				E8D11238189A203E00F61B88 /* SublimeText.gitignore in Resources */,
+				E8D11208189A203E00F61B88 /* CodeIgniter.gitignore in Resources */,
+				E8D11231189A203E00F61B88 /* NotepadPP.gitignore in Resources */,
+				E8D11212189A203E00F61B88 /* Eagle.gitignore in Resources */,
+				E8D11243189A203E00F61B88 /* Gradle.gitignore in Resources */,
+				E8D1121D189A203E00F61B88 /* BricxCC.gitignore in Resources */,
+				E8D11242189A203E00F61B88 /* Go.gitignore in Resources */,
+				E8D11254189A203E00F61B88 /* Meteor.gitignore in Resources */,
+				E8D1122E189A203E00F61B88 /* ModelSim.gitignore in Resources */,
+				E8D1121F189A203E00F61B88 /* CVS.gitignore in Resources */,
+				E8D1123C189A203E00F61B88 /* Vagrant.gitignore in Resources */,
+				E8D11210189A203E00F61B88 /* Delphi.gitignore in Resources */,
+				E8D11219189A203E00F61B88 /* ForceDotCom.gitignore in Resources */,
+				E8D11205189A203E00F61B88 /* ChefCookbook.gitignore in Resources */,
+				E8D11237189A203E00F61B88 /* SBT.gitignore in Resources */,
+				E8D11250189A203E00F61B88 /* Lilypond.gitignore in Resources */,
 				E8D11149189A1E9300F61B88 /* Credits.rtf in Resources */,
+				E8D11240189A203E00F61B88 /* Windows.gitignore in Resources */,
+				E8D1124C189A203E00F61B88 /* Kohana.gitignore in Resources */,
+				E8D11263189A203E00F61B88 /* Qt.gitignore in Resources */,
+				E8D11202189A203E00F61B88 /* C++.gitignore in Resources */,
+				E8D1126D189A203E00F61B88 /* Scrivener.gitignore in Resources */,
+				E8D11265189A203E00F61B88 /* Rails.gitignore in Resources */,
+				E8D1125F189A203E00F61B88 /* Prestashop.gitignore in Resources */,
+				E8D11206189A203E00F61B88 /* Leiningen.gitignore in Resources */,
+				E8D11217189A203E00F61B88 /* Fancy.gitignore in Resources */,
+				E8D11276189A203E00F61B88 /* Target3001.gitignore in Resources */,
+				E8D1123D189A203E00F61B88 /* vim.gitignore in Resources */,
+				E8D1122C189A203E00F61B88 /* Matlab.gitignore in Resources */,
+				E8D1122B189A203E00F61B88 /* Linux.gitignore in Resources */,
+				E8D11223189A203E00F61B88 /* Emacs.gitignore in Resources */,
+				E8D11241189A203E00F61B88 /* XilinxISE.gitignore in Resources */,
+				E8D11261189A203E00F61B88 /* Python.gitignore in Resources */,
+				E8D11201189A203E00F61B88 /* C.gitignore in Resources */,
+				E8D1125E189A203E00F61B88 /* Plone.gitignore in Resources */,
+				E8D11281189A203E00F61B88 /* Yeoman.gitignore in Resources */,
 				E8D1114F189A1E9300F61B88 /* MainMenu.xib in Resources */,
+				E8D1127C189A203E00F61B88 /* Unity.gitignore in Resources */,
+				E8D1126A189A203E00F61B88 /* RubyMotion.gitignore in Resources */,
+				E8D111FB189A203E00F61B88 /* Agda.gitignore in Resources */,
+				E8D1124E189A203E00F61B88 /* LemonStand.gitignore in Resources */,
+				E8D11275189A203E00F61B88 /* SymphonyCMS.gitignore in Resources */,
+				E8D1127A189A203E00F61B88 /* TurboGears2.gitignore in Resources */,
+				E8D11264189A203E00F61B88 /* R.gitignore in Resources */,
+				E8D11236189A203E00F61B88 /* SASS.gitignore in Resources */,
+				E8D1123B189A203E00F61B88 /* TextMate.gitignore in Resources */,
+				E8D1126C189A203E00F61B88 /* SCons.gitignore in Resources */,
+				E8D1125C189A203E00F61B88 /* Perl.gitignore in Resources */,
+				E8D1125B189A203E00F61B88 /* OracleForms.gitignore in Resources */,
+				E8D11269189A203E00F61B88 /* Ruby.gitignore in Resources */,
+				E8D11252189A203E00F61B88 /* Magento.gitignore in Resources */,
+				E8D11209189A203E00F61B88 /* CommonLisp.gitignore in Resources */,
+				E8D11224189A203E00F61B88 /* Ensime.gitignore in Resources */,
+				E8D11260189A203E00F61B88 /* Processing.gitignore in Resources */,
+				E8D11273189A203E00F61B88 /* Symfony.gitignore in Resources */,
+				E8D11277189A203E00F61B88 /* Tasm.gitignore in Resources */,
+				E8D1121E189A203E00F61B88 /* Cloud9.gitignore in Resources */,
+				E8D11234189A203E00F61B88 /* README.md in Resources */,
+				E8D1121A189A203E00F61B88 /* FuelPHP.gitignore in Resources */,
+				E8D11216189A203E00F61B88 /* ExpressionEngine.gitignore in Resources */,
+				E8D11248189A203E00F61B88 /* Jboss.gitignore in Resources */,
+				E8D1120D189A203E00F61B88 /* CONTRIBUTING.md in Resources */,
+				E8D11255189A203E00F61B88 /* nanoc.gitignore in Resources */,
+				E8D1124F189A203E00F61B88 /* LICENSE in Resources */,
+				E8D11258189A203E00F61B88 /* OCaml.gitignore in Resources */,
+				E8D1120B189A203E00F61B88 /* Composer.gitignore in Resources */,
+				E8D11247189A203E00F61B88 /* Java.gitignore in Resources */,
+				E8D11233189A203E00F61B88 /* Quartus2.gitignore in Resources */,
+				E8D1125A189A203E00F61B88 /* opencart.gitignore in Resources */,
+				E8D11225189A203E00F61B88 /* Espresso.gitignore in Resources */,
+				E8D11270189A203E00F61B88 /* SketchUp.gitignore in Resources */,
+				E8D11245189A203E00F61B88 /* GWT.gitignore in Resources */,
+				E8D11214189A203E00F61B88 /* EPiServer.gitignore in Resources */,
+				E8D11215189A203E00F61B88 /* Erlang.gitignore in Resources */,
+				E8D1120A189A203E00F61B88 /* Compass.gitignore in Resources */,
+				E8D1124A189A203E00F61B88 /* Joomla.gitignore in Resources */,
+				E8D1126F189A203E00F61B88 /* SeamGen.gitignore in Resources */,
+				E8D11249189A203E00F61B88 /* Jekyll.gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
