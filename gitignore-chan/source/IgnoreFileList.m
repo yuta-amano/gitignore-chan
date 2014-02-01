@@ -1,21 +1,21 @@
 //
-//  FileList.m
+//  IgnoreFileList.m
 //  gitignore-chan
 //
 //  Created by Yuta Amano on 2014/01/30.
 //  Copyright (c) 2014年 yuta.amano. All rights reserved.
 //
 
-#import "FileList.h"
+#import "IgnoreFileList.h"
 
-@interface FileList()
+@interface IgnoreFileList()
 
 @property NSMutableArray *ignoreFiles;
 
 @end
 
 
-@implementation FileList
+@implementation IgnoreFileList
 
 
 - (id)init {

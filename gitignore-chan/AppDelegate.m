@@ -12,7 +12,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    // Insert code here to initialize your applicationd
+    [self.window setContentSize:_mainViewController.view.frame.size];
+    [self.window.contentView addSubview:_mainViewController.view];
+    [_mainViewController.view setFrame:[_window.contentView bounds]];
 }
 
 @end

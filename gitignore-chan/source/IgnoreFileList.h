@@ -1,5 +1,5 @@
 //
-//  FileList.h
+//  IgnoreFileList.h
 //  gitignore-chan
 //
 //  Created by Yuta Amano on 2014/01/30.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "IgnoreFile.h"
 
-@interface FileList : NSObject
+@interface IgnoreFileList : NSObject
 
 - (id)init;
 - (NSArray *)searchFilesWithString:(NSString *)searchString;

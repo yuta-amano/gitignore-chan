@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A62B27D189E512C00DC2490 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62B27B189E512C00DC2490 /* MainViewController.m */; };
+		4A62B27E189E512C00DC2490 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A62B27C189E512C00DC2490 /* MainViewController.xib */; };
 		E8D11139189A1E9300F61B88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D11138189A1E9300F61B88 /* Cocoa.framework */; };
 		E8D11143189A1E9300F61B88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8D11141189A1E9300F61B88 /* InfoPlist.strings */; };
 		E8D11145189A1E9300F61B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D11144189A1E9300F61B88 /* main.m */; };
@@ -156,7 +158,7 @@
 		E8D11282189A203E00F61B88 /* Yii.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F7189A203E00F61B88 /* Yii.gitignore */; };
 		E8D11283189A203E00F61B88 /* ZendFramework.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E8D111F8189A203E00F61B88 /* ZendFramework.gitignore */; };
 		E8D11287189A52C100F61B88 /* IgnoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D11286189A52C000F61B88 /* IgnoreFile.m */; };
-		E8D1128A189A5A4300F61B88 /* FileList.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D11289189A5A4300F61B88 /* FileList.m */; };
+		E8D1128A189A5A4300F61B88 /* IgnoreFileList.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D11289189A5A4300F61B88 /* IgnoreFileList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +172,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A62B27A189E512C00DC2490 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4A62B27B189E512C00DC2490 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4A62B27C189E512C00DC2490 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		E8D11135189A1E9300F61B88 /* gitignore-chan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gitignore-chan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D11138189A1E9300F61B88 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E8D1113B189A1E9300F61B88 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -328,8 +333,8 @@
 		E8D111F8189A203E00F61B88 /* ZendFramework.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZendFramework.gitignore; sourceTree = "<group>"; };
 		E8D11285189A52C000F61B88 /* IgnoreFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgnoreFile.h; sourceTree = "<group>"; };
 		E8D11286189A52C000F61B88 /* IgnoreFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgnoreFile.m; sourceTree = "<group>"; };
-		E8D11288189A5A4300F61B88 /* FileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileList.h; sourceTree = "<group>"; };
-		E8D11289189A5A4300F61B88 /* FileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileList.m; sourceTree = "<group>"; };
+		E8D11288189A5A4300F61B88 /* IgnoreFileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgnoreFileList.h; sourceTree = "<group>"; };
+		E8D11289189A5A4300F61B88 /* IgnoreFileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgnoreFileList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -593,8 +598,11 @@
 			children = (
 				E8D11285189A52C000F61B88 /* IgnoreFile.h */,
 				E8D11286189A52C000F61B88 /* IgnoreFile.m */,
-				E8D11288189A5A4300F61B88 /* FileList.h */,
-				E8D11289189A5A4300F61B88 /* FileList.m */,
+				E8D11288189A5A4300F61B88 /* IgnoreFileList.h */,
+				E8D11289189A5A4300F61B88 /* IgnoreFileList.m */,
+				4A62B27A189E512C00DC2490 /* MainViewController.h */,
+				4A62B27B189E512C00DC2490 /* MainViewController.m */,
+				4A62B27C189E512C00DC2490 /* MainViewController.xib */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -762,6 +770,7 @@
 				E8D1126D189A203E00F61B88 /* Scrivener.gitignore in Resources */,
 				E8D11265189A203E00F61B88 /* Rails.gitignore in Resources */,
 				E8D1125F189A203E00F61B88 /* Prestashop.gitignore in Resources */,
+				4A62B27E189E512C00DC2490 /* MainViewController.xib in Resources */,
 				E8D11206189A203E00F61B88 /* Leiningen.gitignore in Resources */,
 				E8D11217189A203E00F61B88 /* Fancy.gitignore in Resources */,
 				E8D11276189A203E00F61B88 /* Target3001.gitignore in Resources */,
@@ -835,8 +844,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D11287189A52C100F61B88 /* IgnoreFile.m in Sources */,
-				E8D1128A189A5A4300F61B88 /* FileList.m in Sources */,
+				E8D1128A189A5A4300F61B88 /* IgnoreFileList.m in Sources */,
 				E8D1114C189A1E9300F61B88 /* AppDelegate.m in Sources */,
+				4A62B27D189E512C00DC2490 /* MainViewController.m in Sources */,
 				E8D11145189A1E9300F61B88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1048,6 +1058,7 @@
 				E8D11168189A1E9300F61B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8D11169189A1E9300F61B88 /* Build configuration list for PBXNativeTarget "gitignore-chanTests" */ = {
 			isa = XCConfigurationList;
@@ -1056,6 +1067,7 @@
 				E8D1116B189A1E9300F61B88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
