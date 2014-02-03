@@ -40,6 +40,9 @@
 }
 
 - (NSArray *)searchFilesWithString:(NSString *)searchString {
+    if (searchString.length == 0) {
+        return [self getListAll];
+    }
     NSMutableArray *result = [NSMutableArray array];
     for (IgnoreFile *file in _ignoreFiles) {
         NSRange range = [file.filename rangeOfString:searchString];

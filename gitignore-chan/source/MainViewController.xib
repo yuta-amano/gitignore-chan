@@ -26,7 +26,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </searchFieldCell>
                     <connections>
-                        <outlet property="delegate" destination="yym-TE-76p" id="Pi0-tY-zZ2"/>
+                        <outlet property="delegate" destination="-2" id="oBv-VK-wyb"/>
                     </connections>
                 </searchField>
                 <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qu8-0l-fPT">
