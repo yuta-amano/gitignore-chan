@@ -20,7 +20,7 @@
 
 - (id)init {
     if (self = [super init]) {
-        NSString *bundleDir = [[NSBundle mainBundle] bundlePath];
+        NSString *bundleDir = [[NSBundle mainBundle] resourcePath];
         NSFileManager *fileMgr = [NSFileManager defaultManager];
         NSError *err = nil;
         NSArray *resourceList = [fileMgr contentsOfDirectoryAtPath:bundleDir error:&err];
@@ -28,11 +28,11 @@
             NSLog(@"failed getting resource files. error:%@", err);
             return nil;
         }
+        NSPredicate *filter = [NSPredicate predicateWithFormat:@"self ENDSWITH '.gitignore'"];
+        NSArray *ignoreResouces = [resourceList filteredArrayUsingPredicate:filter];
         _ignoreFiles = [NSMutableArray array];
-        for (NSString *filename in resourceList) {
-            NSString *ext = @".gitignore";
-            NSString *name = [filename substringWithRange:NSMakeRange(0, filename.length - ext.length)];
-            IgnoreFile *file = [[IgnoreFile alloc] initWithFilename:name];
+        for (NSString *filename in ignoreResouces) {
+            IgnoreFile *file = [[IgnoreFile alloc] initWithFilename:filename];
             [_ignoreFiles addObject:file];
         }
     }
@@ -50,12 +50,16 @@
     return [result copy];
 }
 
-- (IgnoreFile *)getIgnoreFileAt:(int)index {
+- (IgnoreFile *)getIgnoreFileAt:(NSUInteger)index {
     return _ignoreFiles[index];
 }
 
 - (NSArray *)getListAll {
     return _ignoreFiles;
+}
+
+- (NSUInteger)count {
+    return [_ignoreFiles count];
 }
 
 @end

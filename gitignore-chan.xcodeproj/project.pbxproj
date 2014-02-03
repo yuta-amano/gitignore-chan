@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A62B27D189E512C00DC2490 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A62B27B189E512C00DC2490 /* MainViewController.m */; };
 		4A62B27E189E512C00DC2490 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A62B27C189E512C00DC2490 /* MainViewController.xib */; };
+		E855657B189F2DCB006E9838 /* SearchHandleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E855657A189F2DCB006E9838 /* SearchHandleObject.m */; };
 		E8D11139189A1E9300F61B88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D11138189A1E9300F61B88 /* Cocoa.framework */; };
 		E8D11143189A1E9300F61B88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8D11141189A1E9300F61B88 /* InfoPlist.strings */; };
 		E8D11145189A1E9300F61B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D11144189A1E9300F61B88 /* main.m */; };
@@ -175,6 +176,8 @@
 		4A62B27A189E512C00DC2490 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4A62B27B189E512C00DC2490 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4A62B27C189E512C00DC2490 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E8556579189F2DCB006E9838 /* SearchHandleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHandleObject.h; sourceTree = "<group>"; };
+		E855657A189F2DCB006E9838 /* SearchHandleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHandleObject.m; sourceTree = "<group>"; };
 		E8D11135189A1E9300F61B88 /* gitignore-chan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gitignore-chan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D11138189A1E9300F61B88 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E8D1113B189A1E9300F61B88 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -603,6 +606,8 @@
 				4A62B27A189E512C00DC2490 /* MainViewController.h */,
 				4A62B27B189E512C00DC2490 /* MainViewController.m */,
 				4A62B27C189E512C00DC2490 /* MainViewController.xib */,
+				E8556579189F2DCB006E9838 /* SearchHandleObject.h */,
+				E855657A189F2DCB006E9838 /* SearchHandleObject.m */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -847,6 +852,7 @@
 				E8D1128A189A5A4300F61B88 /* IgnoreFileList.m in Sources */,
 				E8D1114C189A1E9300F61B88 /* AppDelegate.m in Sources */,
 				4A62B27D189E512C00DC2490 /* MainViewController.m in Sources */,
+				E855657B189F2DCB006E9838 /* SearchHandleObject.m in Sources */,
 				E8D11145189A1E9300F61B88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

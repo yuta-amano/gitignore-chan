@@ -7,7 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SearchHandleObject.h"
 
 @interface MainViewController : NSViewController
+
+@property (strong) IBOutlet NSArrayController *ignoreFileArrayController;
 
 @end

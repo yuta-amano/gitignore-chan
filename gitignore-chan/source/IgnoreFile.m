@@ -35,4 +35,10 @@
     return YES;
 }
 
+- (id)copyWithZone:(NSZone *)zone
+{
+    IgnoreFile *file = [[[self class] allocWithZone:zone] initWithFilename:[filename copyWithZone:zone]];
+    return file;
+}
+
 @end

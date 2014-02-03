@@ -13,7 +13,8 @@
 
 - (id)init;
 - (NSArray *)searchFilesWithString:(NSString *)searchString;
-- (IgnoreFile *)getIgnoreFileAt:(int)index;
+- (IgnoreFile *)getIgnoreFileAt:(NSUInteger)index;
 - (NSArray *)getListAll;
+- (NSUInteger)count;
 
 @end
