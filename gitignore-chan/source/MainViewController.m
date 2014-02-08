@@ -26,23 +26,36 @@
     _ignoreFileList = [[IgnoreFileList alloc] init];
     _showingFiles = [NSMutableArray arrayWithCapacity:[_ignoreFileList count]];
     [self updateTableBySearchString:@""];
+    [self._ignoreFileTableView reloadData];
 }
 
 - (void)controlTextDidChange:(NSNotification *)obj {
-    [_ignoreFileArrayController removeObjects:_showingFiles];
     [_showingFiles removeAllObjects];
     NSTextField *textField = [obj object];
     [self updateTableBySearchString:textField.stringValue];
+    [self._ignoreFileTableView reloadData];
 }
 
 - (void)updateTableBySearchString:(NSString *)searchStr {
     NSArray *searchedList = [_ignoreFileList searchFilesWithString:searchStr];
     for (int i = 0; i < [searchedList count]; ++i) {
         IgnoreFile *file = searchedList[i];
-        NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:file.filename, @"typename", nil];
-        [_showingFiles addObject:dict];
+        [_showingFiles addObject:file];
     }
-    [_ignoreFileArrayController addObjects:_showingFiles];
+}
+
+// The only essential/required tableview dataSource method
+- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
+    return [_showingFiles count];
+}
+
+// This method is optional if you use bindings to provide the data
+- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
+    NSString *identifier = [tableColumn identifier];
+    NSTableCellView *cellView = [tableView makeViewWithIdentifier:identifier owner:self];
+    IgnoreFile *file = _showingFiles[row];
+    cellView.textField.stringValue = file.filename;
+    return cellView;
 }
 
 @end

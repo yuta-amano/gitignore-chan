@@ -9,8 +9,8 @@
 #import <Cocoa/Cocoa.h>
 #import "SearchHandleObject.h"
 
-@interface MainViewController : NSViewController
+@interface MainViewController : NSViewController<NSTableViewDelegate, NSTableViewDataSource>
 
-@property (strong) IBOutlet NSArrayController *ignoreFileArrayController;
+@property (strong) IBOutlet NSTableView *_ignoreFileTableView;
 
 @end
