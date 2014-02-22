@@ -18,4 +18,8 @@
     [_mainViewController.view setFrame:[_window.contentView bounds]];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+    return YES;
+}
+
 @end
