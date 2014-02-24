@@ -12,7 +12,6 @@
 @interface MainViewController ()
 
 @property IgnoreFileList *ignoreFileList;
-@property IgnoreFile *selectedFile;
 @property NSMutableArray *showingFiles;
 
 - (void)updateTableBySearchString:(NSString*)searchStr;
@@ -56,6 +55,32 @@
     IgnoreFile *file = _showingFiles[row];
     cellView.textField.stringValue = file.filename;
     return cellView;
+}
+
+- (void)copyResult:(IgnoreCopyResult)result file:(IgnoreFile *)selectedFile dir:(NSString *)dir {
+    if (result == IGNORE_COPY_ALREADY_EXISTS) {
+        NSAlert *alert = [NSAlert alertWithMessageText:@".gitignore already exists." defaultButton:nil alternateButton:nil otherButton:@"NG" informativeTextWithFormat:@"Will you overwrite this?"];
+        NSUInteger ret = [alert runModal];
+        if (ret == NSOKButton) {
+            [selectedFile overwriteTo:dir];
+        }
+    }
+}
+
+- (IBAction)onClickCopy:(id)sender {
+    NSInteger selected = [self._ignoreFileTableView selectedRow];
+    if (selected < 0) {
+        return;
+    }
+    NSOpenPanel *panel = [NSOpenPanel openPanel];
+    [panel setCanChooseDirectories:YES];
+    [panel setCanChooseFiles:NO];
+    NSUInteger ret = [panel runModal];
+    if (ret == NSOKButton) {
+        IgnoreFile *selectedFile = _showingFiles[selected];
+        NSString *copyPath = [[panel directoryURL] path];
+        [self copyResult:[selectedFile copyTo:copyPath] file:selectedFile dir:copyPath];
+    }
 }
 
 @end

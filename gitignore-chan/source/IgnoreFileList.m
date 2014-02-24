@@ -32,7 +32,7 @@
         NSArray *ignoreResouces = [resourceList filteredArrayUsingPredicate:filter];
         _ignoreFiles = [NSMutableArray array];
         for (NSString *filename in ignoreResouces) {
-            IgnoreFile *file = [[IgnoreFile alloc] initWithFilename:filename];
+            IgnoreFile *file = [[IgnoreFile alloc] initWithFilename:[self excludeExtension:filename]];
             [_ignoreFiles addObject:file];
         }
     }
@@ -63,6 +63,12 @@
 
 - (NSUInteger)count {
     return [_ignoreFiles count];
+}
+
+- (NSString *)excludeExtension:(NSString *)filename {
+    NSString *extension = @".gitignore";
+    NSUInteger last = filename.length - extension.length;
+    return [filename substringWithRange:NSMakeRange(0, last)];
 }
 
 @end

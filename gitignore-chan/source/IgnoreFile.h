@@ -12,7 +12,15 @@
 
 @property (readonly) NSString *filename;
 
+typedef enum {
+    IGNORE_COPY_OK = 0,
+    IGNORE_COPY_ALREADY_EXISTS,
+    IGNORE_COPY_NOT_FOUND,
+    IGNORE_COPY_NG,
+} IgnoreCopyResult;
+
 - (id)initWithFilename:(NSString *)name;
-- (BOOL)copyTo:(NSString *)dirpath;
+- (IgnoreCopyResult)copyTo:(NSString *)dirpath;
+- (IgnoreCopyResult)overwriteTo:(NSString *)dirpath;
 
 @end
